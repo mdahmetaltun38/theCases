@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".q2Activity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_q2_activity"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:id="@+id/case_body_display_screenq2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="129dp"
+        android:hint="Case body"
+        android:textAlignment="inherit"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView4q2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_questionq2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Question"
+        android:padding="3dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_case_name_listdisplayq2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Case name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5q2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/display_option1q2"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="27dp"
+        android:buttonTint="@color/purple_700"
+        android:minHeight="48dp"
+        android:text="CheckBox"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView4q2"
+        app:layout_constraintStart_toStartOf="@+id/tv_questionq2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_questionq2" />
+
+    <CheckBox
+        android:id="@+id/display_option2q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="60dp"
+        android:buttonTint="@color/purple_700"
+        android:minHeight="48dp"
+        android:text="CheckBox"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_questionq2"
+        app:layout_constraintStart_toStartOf="@+id/textView4q2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_questionq2" />
+
+    <CheckBox
+        android:id="@+id/display_option3q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/purple_700"
+        android:minHeight="48dp"
+        android:text="CheckBox"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/display_option1q2"
+        app:layout_constraintTop_toBottomOf="@+id/display_option1q2" />
+
+    <CheckBox
+        android:id="@+id/display_option4q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/purple_700"
+        android:minHeight="48dp"
+        android:text="CheckBox"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/display_option2q2"
+        app:layout_constraintTop_toBottomOf="@+id/display_option2q2" />
+
+    <CheckBox
+        android:id="@+id/display_option5q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:buttonTint="@color/purple_700"
+        android:minHeight="48dp"
+        android:text="CheckBox"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/display_option3q2"
+        app:layout_constraintTop_toBottomOf="@+id/display_option3q2" />
+
+    <CheckBox
+        android:id="@+id/display_option6q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:buttonTint="@color/purple_700"
+        android:minHeight="48dp"
+        android:text="CheckBox"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/display_option4q2"
+        app:layout_constraintTop_toBottomOf="@+id/display_option4q2" />
+
+    <Button
+        android:id="@+id/button_scoreq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/your_score_is2q2"
+        app:layout_constraintStart_toEndOf="@+id/your_score_isq2" />
+
+    <TextView
+        android:id="@+id/display_scoreq2"
+        android:layout_width="85dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="77dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/button_scoreq2"
+        app:layout_constraintStart_toStartOf="@+id/your_score_isq2"
+        app:layout_constraintTop_toBottomOf="@+id/display_option5q2" />
+
+    <TextView
+        android:id="@+id/your_score_isq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Your score is"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/display_scoreq2"
+        app:layout_constraintEnd_toStartOf="@+id/button_scoreq2"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/max_scoreq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/your_score_is2q2"
+        app:layout_constraintTop_toTopOf="@+id/your_score_is2q2" />
+
+    <TextView
+        android:id="@+id/your_score_is2q2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="54dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/possible_max_was"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/max_scoreq2"
+        app:layout_constraintStart_toEndOf="@+id/button_scoreq2"
+        app:layout_constraintTop_toTopOf="@+id/display_option5q2" />
+
+    <TextView
+        android:id="@+id/textView4q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Question"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/tv_questionq2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="8dp"
+        android:text="Case"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/case_body_display_screenq2"
+        app:layout_constraintStart_toStartOf="@+id/textView6q2" />
+
+    <TextView
+        android:id="@+id/textView6q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="Case name"
+        android:textColor="@color/purple_700"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_next_q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_scoreq2"
+        app:layout_constraintTop_toBottomOf="@+id/your_score_is2q2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

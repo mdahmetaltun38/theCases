@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/scrollView_mainactivity"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_background"
+        tools:context=".MainActivity">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar_main_activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?attr/colorPrimary"
+                android:clipToPadding="false"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option6q3"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option6"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option5q3"
+            app:layout_constraintStart_toStartOf="@+id/tv_option5q3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option5q3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_question3"
+            android:layout_width="361dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="Question3"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option6q2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option1q3"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option1"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.166"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_question3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option2q3"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option2"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option1q3"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tv_option1q3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option1q3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option3q3"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option3"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option2q3"
+            app:layout_constraintStart_toStartOf="@+id/tv_option2q3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option2q3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option4q3"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option4"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option3q3"
+            app:layout_constraintStart_toStartOf="@+id/tv_option3q3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option3q3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option5q3"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option5"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option4q3"
+            app:layout_constraintStart_toStartOf="@+id/tv_option4q3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option4q3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option2q3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option1q3"
+            app:layout_constraintStart_toStartOf="@+id/score_option1q3"
+            app:layout_constraintTop_toBottomOf="@+id/score_option1q3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option3q3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option2q3"
+            app:layout_constraintStart_toStartOf="@+id/score_option2q3"
+            app:layout_constraintTop_toBottomOf="@+id/score_option2q3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option4q3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option3q3"
+            app:layout_constraintStart_toStartOf="@+id/score_option3q3"
+            app:layout_constraintTop_toBottomOf="@+id/score_option3q3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option5q3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option4q3"
+            app:layout_constraintStart_toStartOf="@+id/score_option4q3"
+            app:layout_constraintTop_toBottomOf="@+id/score_option4q3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option6q3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option5q3"
+            app:layout_constraintStart_toStartOf="@+id/score_option5q3"
+            app:layout_constraintTop_toBottomOf="@+id/score_option5q3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_maxq3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="Max Score"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option6q3"
+            app:layout_constraintStart_toStartOf="@+id/score_option6q3"
+            app:layout_constraintTop_toBottomOf="@+id/score_option6q3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option1q3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.585"
+            app:layout_constraintStart_toEndOf="@+id/tv_option1q3"
+            app:layout_constraintTop_toBottomOf="@+id/tv_question3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_question2"
+            android:layout_width="361dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="Question2"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option6" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option1q2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option1"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_question2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option2q2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option2"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option1q2"
+            app:layout_constraintStart_toStartOf="@+id/tv_option1q2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option1q2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option3q2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option3"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option2q2"
+            app:layout_constraintStart_toStartOf="@+id/tv_option2q2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option2q2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option4q2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option4"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option3q2"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/tv_option3q2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option3q2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option5q2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option5"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option4q2"
+            app:layout_constraintStart_toStartOf="@+id/tv_option4q2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option4q2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option6q2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option6"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option5q2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/tv_option5q2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option5q2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option1q2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.456"
+            app:layout_constraintStart_toEndOf="@+id/tv_option1q2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_question2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option2q2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option1q2"
+            app:layout_constraintStart_toStartOf="@+id/score_option1q2"
+            app:layout_constraintTop_toBottomOf="@+id/score_option1q2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option3q2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option2q2"
+            app:layout_constraintStart_toStartOf="@+id/score_option2q2"
+            app:layout_constraintTop_toBottomOf="@+id/score_option2q2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option4q2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option3q2"
+            app:layout_constraintStart_toStartOf="@+id/score_option3q2"
+            app:layout_constraintTop_toBottomOf="@+id/score_option3q2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option5q2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option4q2"
+            app:layout_constraintStart_toStartOf="@+id/score_option4q2"
+            app:layout_constraintTop_toBottomOf="@+id/score_option4q2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option6q2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option5q2"
+            app:layout_constraintStart_toStartOf="@+id/score_option5q2"
+            app:layout_constraintTop_toBottomOf="@+id/score_option5q2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_maxq2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="Max Score"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option6q2"
+            app:layout_constraintStart_toStartOf="@+id/score_option6q2"
+            app:layout_constraintTop_toBottomOf="@+id/score_option6q2" />
+
+        <androidx.cardview.widget.CardView
+
+            android:id="@+id/cardView"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="#2196F3"
+            android:backgroundTint="#2196F3"
+            android:padding="10sp"
+            app:cardCornerRadius="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appBarLayout">
+
+            <EditText
+                android:id="@+id/case_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:ems="10"
+                android:hint="Case Name"
+                android:includeFontPadding="false"
+                android:inputType="textPersonName"
+                android:padding="10sp"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="64dp" />
+
+            <EditText
+                android:id="@+id/case_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+                android:ems="10"
+                android:hint="Case Body"
+                android:inputType="textPersonName"
+                android:padding="10sp"
+                android:translationY="40sp"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="120dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="105sp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="24dp"
+                android:background="#2196F3"
+                android:backgroundTint="#2196F3"
+                android:padding="10sp"
+                app:cardCornerRadius="10sp">
+
+            </androidx.cardview.widget.CardView>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_question1"
+            android:layout_width="361dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="Question1"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/cardView"
+            app:layout_constraintStart_toStartOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option1"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option1"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.119"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_question1" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option6"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option6"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option5"
+            app:layout_constraintStart_toStartOf="@+id/tv_option5"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option5" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option5"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option5"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option4"
+            app:layout_constraintStart_toStartOf="@+id/tv_option4"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option4" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option4"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option4"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option3"
+            app:layout_constraintStart_toStartOf="@+id/tv_option2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option3"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option3"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option2"
+            app:layout_constraintStart_toStartOf="@+id/tv_option2"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/tv_option2"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="option2"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_option1"
+            app:layout_constraintStart_toStartOf="@+id/tv_option1"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option1" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option1"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.614"
+            app:layout_constraintStart_toEndOf="@+id/tv_option1"
+            app:layout_constraintTop_toBottomOf="@+id/tv_question1" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option1"
+            app:layout_constraintStart_toStartOf="@+id/score_option1"
+            app:layout_constraintTop_toBottomOf="@+id/score_option1" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option2"
+            app:layout_constraintStart_toStartOf="@+id/score_option2"
+            app:layout_constraintTop_toBottomOf="@+id/score_option2" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option4"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option3"
+            app:layout_constraintStart_toStartOf="@+id/score_option3"
+            app:layout_constraintTop_toBottomOf="@+id/score_option3" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option5"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option4"
+            app:layout_constraintStart_toStartOf="@+id/score_option4"
+            app:layout_constraintTop_toBottomOf="@+id/score_option4" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_option6"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="score"
+            android:inputType="text"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option5"
+            app:layout_constraintStart_toStartOf="@+id/score_option5"
+            app:layout_constraintTop_toBottomOf="@+id/score_option5" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/score_max"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/common_google_signin_btn_icon_dark_normal_background"
+            android:ems="10"
+            android:hint="Max Score"
+            android:inputType="textPersonName"
+            android:paddingStart="10dp"
+            app:layout_constraintEnd_toEndOf="@+id/score_option6"
+            app:layout_constraintStart_toStartOf="@+id/score_option6"
+            app:layout_constraintTop_toBottomOf="@+id/score_option6" />
+
+        <Button
+            android:id="@+id/btnekle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/shape_button_rounded"
+            android:text="SUBMIT"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_option6q3"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/button_show_caselist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/shape_button_rounded"
+            android:text="Show Case List"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/sign_out"
+            app:layout_constraintTop_toBottomOf="@+id/score_max3" />
+
+        <Button
+            android:id="@+id/sign_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/shape_button_rounded"
+            android:text="Sign Out"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btnekle"
+            app:layout_constraintTop_toBottomOf="@+id/score_max3"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

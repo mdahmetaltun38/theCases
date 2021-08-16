@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "398798886971",
+    "firebase_url": "https://personelkaydet-c6e3e-default-rtdb.firebaseio.com",
+    "project_id": "personelkaydet-c6e3e",
+    "storage_bucket": "personelkaydet-c6e3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398798886971:android:44a49c80a91f6b0cd4641e",
+        "android_client_info": {
+          "package_name": "com.example.personelkaydet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398798886971-uvjir9emketeojvcpmpltn7hltbu1jdt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzoDfBYl7pq0Tn2DoKWR6YouUcfe_n96g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398798886971-uvjir9emketeojvcpmpltn7hltbu1jdt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
